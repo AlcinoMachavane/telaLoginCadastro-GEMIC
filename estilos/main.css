@@ -3,6 +3,7 @@
 main{
     width: 100%;
     max-width: 320px;
+    background-color: #ffc107;
 }
 
 form{

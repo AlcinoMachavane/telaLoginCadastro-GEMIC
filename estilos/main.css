@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+form{
+    background-color: white;
+    text-align: center;
+    width: 320px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+p, input{
+    margin-bottom: 40px;
+}
+h1{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: #253889;
+}
+p{
+    font-size: .8em;
+    color: grey;
+    font-weight: lighter;
+}
+input{
+    width: 18em;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.09);
+    border-radius: 5px;
+}
+label{
+    text-align: left;
+    margin: 0px;
+    display: inline-block;
+}
+#botao_logar{
+    cursor: pointer;
+    border: none;
+    background-image: linear-gradient(to right,#253889, #36a9e1);
+    color: white;
+    font-weight: bold;
+    display: block;
+    margin: auto;
+    width: 290px;
+    padding: 5px 0px 5px 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#botao_logar:hover{
+    background-image: linear-gradient(to right, #3361aa,#36a9e1, #253889);
+    box-shadow: -1px -1px 10px rgba(96, 153, 183, 0.32);
+    translate: 0px -3px;
+    transition-duration: 1s;
+    width: 280px;
+
+}
+
+p.linha{
+    margin-bottom: 0px;
+}
+
+div.icones{
+    margin: 20px;
+    display: inline-block;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+}
+div.icones:hover{
+    border-radius: 50%;
+    background-color: #36a9e1;
+    transition-duration: 1s;
+}
+#google{
+    background-image: url("../icones/icons8_Google_64px.png");
+}
+#facebook{
+    background-image: url("../icones/icons8_Facebook_Circled_64px.png");
+}
+
+#sem_conta{
+    color: #253889;
+    font-weight: bold;
+    text-decoration: none;
+}
+#sem_conta:hover{
+    color: #36a9e1;
+    font-size: 1.1em;
+    transition-duration: 1s;
+}

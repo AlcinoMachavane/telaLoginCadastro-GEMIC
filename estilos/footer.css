@@ -17,6 +17,7 @@ a.foot{
     text-decoration: none;
 }
 div.foot{
+    max-width: 30em;
     padding: 5%;
     display: inline-block;
     text-align: justify;

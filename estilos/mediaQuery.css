@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+ @media (max-width: 375px){ /* para medium mobile */
+    a.menu{
+        display: none;
+        background-color: red;
+    }
+}

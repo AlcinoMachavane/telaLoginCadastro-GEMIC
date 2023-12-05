@@ -54,16 +54,16 @@ label>img{
     font-weight: bold;
     display: block;
     margin: auto;
-    width: 81%;
+    width: 86%;
     padding: 5px 0px 5px 0px;
     margin-top: 10px;
     margin-bottom: 10px;
-    margin-left: 13%;
+    margin-left: 10%;
 }
 #botao_logar:hover{
     background-image: linear-gradient(to right, #3361aa,#36a9e1, #253889);
     box-shadow: -1px -1px 10px rgba(96, 153, 183, 0.32);
-    translate: 0px -3px;
+    translate: 0px -2px;
     transition-duration: 1.5s;
     /* width: 79%; */
 
@@ -72,6 +72,9 @@ label>img{
 p.linha{
     font-size: 1.01em;
     margin-bottom: 0px;
+}
+strong{
+    color: rgba(211, 211, 211, 0.801);
 }
 
 div.icones{

@@ -37,9 +37,30 @@ nav{
     text-align: right;
 }
 
+a.menuAmburguer{
+    /* background-color: rgb(255, 255, 255); */
+    /* box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.233); */
+    border-radius: 50%;
+    background-image: url("../icones/menus/menuAmburguerBranco.png");
+    margin-top: 1.2em;
+    margin-right: 1.1em;
+    margin-left: auto;
+     border: none;
+     width: 2em;
+     height: 2em;
+     background-size: cover;
+     background-position: center center;
+}
+
+a.menuAmburguer:hover{
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.233);
+    translate: -1px -1px;
+     transition-duration: .5s;
+}
+
 a.logo{
-    margin-top: .8em;
-    margin-left: 2em;
+    margin-top: 1.1em;
+    margin-left: 1.1em;
     margin-right: auto;
      border: none;
      width: 2em;
@@ -49,6 +70,7 @@ a.logo{
  }
 
 a.menu{
+    display: none;
     margin-left: 2em;
     margin-top: 1em;
     color: white;

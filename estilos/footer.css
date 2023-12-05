@@ -2,23 +2,33 @@
 
 footer{
     width: 100%;
-    text-align: center;
+    text-align: left;
     margin-bottom: 0px;
     padding-bottom: 10%;
-    padding-top: 10%;
+    /* padding-top: 10%; */
     background-color: rgba(37, 56, 137, 0.09);
 }
 p.foot{
-    color: black;
+    text-align: right;
 }
-a.foot{
-    color: black;
-    font-weight: bold;
+a.contactos{
+    font-size: small;
     text-decoration: none;
+    margin: 3%;
+    color: grey;
+    
 }
-div.foot{
-    max-width: 30em;
-    padding: 5%;
-    display: inline-block;
-    text-align: justify;
+
+img.foot{
+    margin-top: 10%;
+    margin-right: 3%;
+    width: 20px;
+    height: 20px;
+}
+#IDinstagram{
+    margin-left: 27%;
+}
+
+#IDe-mail{
+    margin-left: 37%;
 }

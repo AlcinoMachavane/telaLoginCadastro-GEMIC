@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
- @media (max-width: 375px){ /* para medium mobile */
+ @mediad screen and (min-widht: 320px) and(max-width: 375px){ /* para medium mobile */
     a.menu{
         display: none;
-        background-color: red;
     }
 }
+

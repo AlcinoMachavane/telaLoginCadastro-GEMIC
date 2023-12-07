@@ -35,8 +35,8 @@ p{
 }
 input{
     width: 95%;
-    padding-top: 1.5em;
-    padding-bottom: 1.5em;
+    padding-top: 2em;
+    padding-bottom: 2em;
     padding-left: 1em;
     border: 1px solid rgba(0, 0, 0, 0.09);
     border-radius: 5px;
